@@ -1,0 +1,11 @@
+rev3\bsp_spi_sram.o: ..\Src\bsp_spi_sram.c
+rev3\bsp_spi_sram.o: ..\Src\bsp_spi_sram.h
+rev3\bsp_spi_sram.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h
+rev3\bsp_spi_sram.o: .\RTE\_Rev3\RTE_Components.h
+rev3\bsp_spi_sram.o: ../Drivers/CMSIS/Include/core_cm3.h
+rev3\bsp_spi_sram.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+rev3\bsp_spi_sram.o: ../Drivers/CMSIS/Include/core_cmInstr.h
+rev3\bsp_spi_sram.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+rev3\bsp_spi_sram.o: ../Drivers/CMSIS/Include/core_cmFunc.h
+rev3\bsp_spi_sram.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h
+rev3\bsp_spi_sram.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

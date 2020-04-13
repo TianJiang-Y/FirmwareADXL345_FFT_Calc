@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"rev3\system_stm32f1xx.o"
+"rev3\startup_stm32f103xb.o"
+"rev3\main.o"
+"rev3\stm32f1xx_it.o"
+"rev3\stm32f1xx_hal_msp.o"
+"rev3\stm32f1xx_hal_cortex.o"
+"rev3\stm32f1xx_hal_adc_ex.o"
+"rev3\stm32f1xx_hal_uart.o"
+"rev3\stm32f1xx_hal_gpio.o"
+"rev3\stm32f1xx_hal_adc.o"
+"rev3\stm32f1xx_hal_tim_ex_1.o"
+"rev3\stm32f1xx_hal_tim_1.o"
+"rev3\stm32f1xx_hal_spi.o"
+"rev3\stm32f1xx_hal_flash_ex.o"
+"rev3\stm32f1xx_hal_rcc_ex.o"
+"rev3\stm32f1xx_hal_spi_ex.o"
+"rev3\stm32f1xx_hal.o"
+"rev3\stm32f1xx_hal_pwr.o"
+"rev3\stm32f1xx_hal_flash.o"
+"rev3\stm32f1xx_hal_rcc.o"
+"rev3\stm32f1xx_hal_dma.o"
+--library_type=microlib --strict --scatter "Rev3\Rev3.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Rev3.map" -o Rev3\Rev3.axf
